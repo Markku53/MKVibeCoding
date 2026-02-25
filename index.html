@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MK Systems | Integrated Business Systems</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">MK Systems</div>
+      <nav>
+        <a href="#solutions">Solutions</a>
+        <a href="#industries">Industries</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Systems That Scale With Your Business</p>
+          <h1>We Design, Deliver, and Support Business-Critical Systems</h1>
+          <p class="lead">
+            MK Systems helps growing companies modernize operations with integrated sales,
+            inventory, automation, and reporting systems built for reliability.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Book a Consultation</a>
+            <a class="button secondary" href="#solutions">View Solutions</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Why Companies Choose Us</h2>
+          <ul>
+            <li>End-to-end system design and implementation</li>
+            <li>ERP, CRM, and process automation integration</li>
+            <li>Fast deployment with measurable ROI</li>
+            <li>Long-term maintenance and support</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="solutions" class="section">
+      <div class="container">
+        <h2>Core Solutions</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Sales & CRM Systems</h3>
+            <p>Unify lead tracking, quote management, and customer lifecycle workflows in one platform.</p>
+          </article>
+          <article class="card">
+            <h3>Operations Systems</h3>
+            <p>Connect inventory, procurement, and fulfillment to reduce delays and improve delivery accuracy.</p>
+          </article>
+          <article class="card">
+            <h3>Analytics & Reporting</h3>
+            <p>Monitor performance with executive dashboards and automated KPI reporting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="industries" class="section section-alt">
+      <div class="container">
+        <h2>Industries We Support</h2>
+        <div class="pill-list">
+          <span>Manufacturing</span>
+          <span>Wholesale Distribution</span>
+          <span>Construction</span>
+          <span>Energy & Utilities</span>
+          <span>Healthcare Services</span>
+          <span>Professional Services</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container">
+        <h2>Implementation Process</h2>
+        <ol class="timeline">
+          <li>
+            <h3>1. Discovery</h3>
+            <p>We map your existing workflows, pain points, and growth goals.</p>
+          </li>
+          <li>
+            <h3>2. System Blueprint</h3>
+            <p>We define integrations, architecture, and rollout milestones.</p>
+          </li>
+          <li>
+            <h3>3. Delivery & Training</h3>
+            <p>We deploy the system and train teams for fast adoption.</p>
+          </li>
+          <li>
+            <h3>4. Optimization</h3>
+            <p>We continuously improve system performance and business outcomes.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Let’s Build Your Next System</h2>
+          <p>Tell us your goals and we’ll propose a practical roadmap within one business day.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Company Name
+            <input type="text" name="company" required />
+          </label>
+          <label>
+            Work Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            What system do you need?
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="button primary">Send Inquiry</button>
+          <p class="form-message" id="formMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> MK Systems. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
